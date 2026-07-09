@@ -1,0 +1,68 @@
+img{
+    position: absolute;
+}
+
+.butterfly{
+    width: 150px;
+    transition: all 0.8s ease-out;
+    z-index: 6;
+}
+
+.foo{
+    width: 50px;
+    transition: all 0.8s ease-out;
+    z-index: 2;
+}
+
+.txt{
+    width: max-content;
+    pointer-events: none;
+}
+
+#back{
+    margin: 0;
+    width:100vw;
+    height:100vh;
+    object-fit: cover;
+    z-index: 1;
+}
+
+#front{
+    margin:0;
+    width:100vw;
+    height:100vh;
+    object-fit: cover;
+    z-index: 5;
+    pointer-events: none;
+}
+
+#bt0{
+    top: 200px;
+    left: 100px;
+}
+
+#bt1{
+    top: 400px;
+    left: 100px;
+}
+
+#bt2{
+    top: 400px;
+    left: 100px;
+}
+
+#f0{
+    top: 400px;
+    left: 700px;
+}
+
+#txt0{
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    left: 40px;
+    top: 80px;
+    background-color:rgba(255, 255, 255, 0.5);
+    color:rgb(255, 68, 93);
+    padding: 15px;
+}

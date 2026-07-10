@@ -3,25 +3,25 @@
 <head>
   <meta charset="utf-8">
   <title>花畑の朝</title>
+  <!-- css読み込み -->
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="
-    margin:0;
-    width:100vw;
-    height:100vh;
-    background-image:url('bg0.png');
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-">>
-<div style="position: relative; width: 1920px; height: 1080px;">
-  <img src="butterfly.gif" style="position: absolute; left: 438px; top: 300px;">
-  <img src="butterfly.gif" style="position: absolute; left: 100px; top: 400px;">
-  <img src="butterfly.gif" style="position: absolute; left: 700px; top: 400px;">
-</div>
-<!-- <div style="position: relative; height: 140px; border: 1px solid #cbd5e1; background: #f8fafc;"></div> -->
-  <div style="position: absolute;font-size: 25px; left: 40px; top: 80px; background-color:rgba(255, 255, 255, 0.5); color:rgb(255, 68, 93); padding: 15px;">
+<body>
+  <img class="bg" id="back" src="bg0.png">
+  <img class="bg" id="front" src="bg1.png">
+  <img class="butterfly" id="bt0" src="butterfly.gif">
+  <img class="butterfly" id="bt1" src="butterfly.gif">
+  <img class="butterfly" id="bt2" src="butterfly.gif">
+  <img class="foo" id="f0" src="foo.gif">
+  <img class="foo" id="f1" src="foo.gif">
+  <img class="foo" id="f2" src="foo.gif">
+  <img class="foo" id="f3" src="foo.gif">
+  <img class="foo" id="f4" src="foo.gif">
+  <div class="txt" id="txt0">
     ぽかぽか陽気の穏やかな朝<br>
     花畑では、蝶々がのんびり飛んでいます
   </div>
+  <!-- javascriptを読み込む -->
+  <script src="script.js"></script>
 </body>
 </html>
